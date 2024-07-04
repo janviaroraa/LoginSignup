@@ -17,8 +17,12 @@
 		12EE44002C35200500750240 /* LoginSignupUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EE43FF2C35200500750240 /* LoginSignupUITestsLaunchTests.swift */; };
 		12EE440D2C35208A00750240 /* LoginTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EE440C2C35208A00750240 /* LoginTableViewController.swift */; };
 		12F15DE92C3665F300D1815D /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F15DE82C3665F300D1815D /* String+Ext.swift */; };
+<<<<<<< Updated upstream
 		12F15DED2C3668C800D1815D /* Alert+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F15DEC2C3668C800D1815D /* Alert+Ext.swift */; };
 		12F15DEF2C3668D900D1815D /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F15DEE2C3668D900D1815D /* UIViewController+Ext.swift */; };
+=======
+		12F15DF22C36917D00D1815D /* SignupTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F15DF12C36917D00D1815D /* SignupTableViewController.swift */; };
+>>>>>>> Stashed changes
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,8 +57,12 @@
 		12EE43FF2C35200500750240 /* LoginSignupUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSignupUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		12EE440C2C35208A00750240 /* LoginTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTableViewController.swift; sourceTree = "<group>"; };
 		12F15DE82C3665F300D1815D /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+<<<<<<< Updated upstream
 		12F15DEC2C3668C800D1815D /* Alert+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alert+Ext.swift"; sourceTree = "<group>"; };
 		12F15DEE2C3668D900D1815D /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+=======
+		12F15DF12C36917D00D1815D /* SignupTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupTableViewController.swift; sourceTree = "<group>"; };
+>>>>>>> Stashed changes
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +96,8 @@
 				12F15DEA2C3667CE00D1815D /* Resources */,
 				12F15DE72C3665C000D1815D /* Extensions */,
 				12EE43DB2C35200300750240 /* LoginSignup */,
-				12F15DEB2C3667F200D1815D /* ViewControllers */,
+				12F15DF02C36916E00D1815D /* Signup */,
+				12F15DEB2C3667F200D1815D /* Login */,
 				12EE43F22C35200500750240 /* LoginSignupTests */,
 				12EE43FC2C35200500750240 /* LoginSignupUITests */,
 				12EE43DA2C35200300750240 /* Products */,
@@ -152,12 +161,20 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		12F15DEB2C3667F200D1815D /* ViewControllers */ = {
+		12F15DEB2C3667F200D1815D /* Login */ = {
 			isa = PBXGroup;
 			children = (
 				12EE440C2C35208A00750240 /* LoginTableViewController.swift */,
 			);
-			path = ViewControllers;
+			path = Login;
+			sourceTree = "<group>";
+		};
+		12F15DF02C36916E00D1815D /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+				12F15DF12C36917D00D1815D /* SignupTableViewController.swift */,
+			);
+			path = Signup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,7 +313,11 @@
 				12F15DEF2C3668D900D1815D /* UIViewController+Ext.swift in Sources */,
 				12F15DE92C3665F300D1815D /* String+Ext.swift in Sources */,
 				12EE43DF2C35200300750240 /* SceneDelegate.swift in Sources */,
+<<<<<<< Updated upstream
 				12F15DED2C3668C800D1815D /* Alert+Ext.swift in Sources */,
+=======
+				12F15DF22C36917D00D1815D /* SignupTableViewController.swift in Sources */,
+>>>>>>> Stashed changes
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
