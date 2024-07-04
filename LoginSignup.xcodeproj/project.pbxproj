@@ -17,6 +17,8 @@
 		12EE44002C35200500750240 /* LoginSignupUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EE43FF2C35200500750240 /* LoginSignupUITestsLaunchTests.swift */; };
 		12EE440D2C35208A00750240 /* LoginTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EE440C2C35208A00750240 /* LoginTableViewController.swift */; };
 		12F15DE92C3665F300D1815D /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F15DE82C3665F300D1815D /* String+Ext.swift */; };
+		12F15DED2C3668C800D1815D /* Alert+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F15DEC2C3668C800D1815D /* Alert+Ext.swift */; };
+		12F15DEF2C3668D900D1815D /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F15DEE2C3668D900D1815D /* UIViewController+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		12EE43FF2C35200500750240 /* LoginSignupUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSignupUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		12EE440C2C35208A00750240 /* LoginTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTableViewController.swift; sourceTree = "<group>"; };
 		12F15DE82C3665F300D1815D /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		12F15DEC2C3668C800D1815D /* Alert+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alert+Ext.swift"; sourceTree = "<group>"; };
+		12F15DEE2C3668D900D1815D /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +136,8 @@
 			isa = PBXGroup;
 			children = (
 				12F15DE82C3665F300D1815D /* String+Ext.swift */,
+				12F15DEC2C3668C800D1815D /* Alert+Ext.swift */,
+				12F15DEE2C3668D900D1815D /* UIViewController+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -287,8 +293,10 @@
 			files = (
 				12EE440D2C35208A00750240 /* LoginTableViewController.swift in Sources */,
 				12EE43DD2C35200300750240 /* AppDelegate.swift in Sources */,
+				12F15DEF2C3668D900D1815D /* UIViewController+Ext.swift in Sources */,
 				12F15DE92C3665F300D1815D /* String+Ext.swift in Sources */,
 				12EE43DF2C35200300750240 /* SceneDelegate.swift in Sources */,
+				12F15DED2C3668C800D1815D /* Alert+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
