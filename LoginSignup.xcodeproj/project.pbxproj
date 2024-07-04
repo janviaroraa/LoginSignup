@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		12EE43DD2C35200300750240 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EE43DC2C35200300750240 /* AppDelegate.swift */; };
 		12EE43DF2C35200300750240 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EE43DE2C35200300750240 /* SceneDelegate.swift */; };
-		12EE43E12C35200300750240 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EE43E02C35200300750240 /* ViewController.swift */; };
 		12EE43E42C35200300750240 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 12EE43E32C35200300750240 /* Base */; };
 		12EE43E62C35200400750240 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12EE43E52C35200400750240 /* Assets.xcassets */; };
 		12EE43E92C35200400750240 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 12EE43E82C35200400750240 /* Base */; };
@@ -17,6 +16,7 @@
 		12EE43FE2C35200500750240 /* LoginSignupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EE43FD2C35200500750240 /* LoginSignupUITests.swift */; };
 		12EE44002C35200500750240 /* LoginSignupUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EE43FF2C35200500750240 /* LoginSignupUITestsLaunchTests.swift */; };
 		12EE440D2C35208A00750240 /* LoginTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EE440C2C35208A00750240 /* LoginTableViewController.swift */; };
+		12F15DE92C3665F300D1815D /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F15DE82C3665F300D1815D /* String+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +40,6 @@
 		12EE43D92C35200300750240 /* LoginSignup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginSignup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12EE43DC2C35200300750240 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12EE43DE2C35200300750240 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		12EE43E02C35200300750240 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		12EE43E32C35200300750240 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		12EE43E52C35200400750240 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12EE43E82C35200400750240 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +50,7 @@
 		12EE43FD2C35200500750240 /* LoginSignupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSignupUITests.swift; sourceTree = "<group>"; };
 		12EE43FF2C35200500750240 /* LoginSignupUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSignupUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		12EE440C2C35208A00750240 /* LoginTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTableViewController.swift; sourceTree = "<group>"; };
+		12F15DE82C3665F300D1815D /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +81,10 @@
 		12EE43D02C35200300750240 = {
 			isa = PBXGroup;
 			children = (
+				12F15DEA2C3667CE00D1815D /* Resources */,
+				12F15DE72C3665C000D1815D /* Extensions */,
 				12EE43DB2C35200300750240 /* LoginSignup */,
+				12F15DEB2C3667F200D1815D /* ViewControllers */,
 				12EE43F22C35200500750240 /* LoginSignupTests */,
 				12EE43FC2C35200500750240 /* LoginSignupUITests */,
 				12EE43DA2C35200300750240 /* Products */,
@@ -101,12 +104,7 @@
 		12EE43DB2C35200300750240 /* LoginSignup */ = {
 			isa = PBXGroup;
 			children = (
-				12EE43DC2C35200300750240 /* AppDelegate.swift */,
-				12EE43DE2C35200300750240 /* SceneDelegate.swift */,
-				12EE43E02C35200300750240 /* ViewController.swift */,
 				12EE43E22C35200300750240 /* Main.storyboard */,
-				12EE440C2C35208A00750240 /* LoginTableViewController.swift */,
-				12EE43E52C35200400750240 /* Assets.xcassets */,
 				12EE43E72C35200400750240 /* LaunchScreen.storyboard */,
 				12EE43EA2C35200400750240 /* Info.plist */,
 			);
@@ -128,6 +126,32 @@
 				12EE43FF2C35200500750240 /* LoginSignupUITestsLaunchTests.swift */,
 			);
 			path = LoginSignupUITests;
+			sourceTree = "<group>";
+		};
+		12F15DE72C3665C000D1815D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				12F15DE82C3665F300D1815D /* String+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		12F15DEA2C3667CE00D1815D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				12EE43DC2C35200300750240 /* AppDelegate.swift */,
+				12EE43DE2C35200300750240 /* SceneDelegate.swift */,
+				12EE43E52C35200400750240 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		12F15DEB2C3667F200D1815D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				12EE440C2C35208A00750240 /* LoginTableViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,9 +285,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12EE43E12C35200300750240 /* ViewController.swift in Sources */,
 				12EE440D2C35208A00750240 /* LoginTableViewController.swift in Sources */,
 				12EE43DD2C35200300750240 /* AppDelegate.swift in Sources */,
+				12F15DE92C3665F300D1815D /* String+Ext.swift in Sources */,
 				12EE43DF2C35200300750240 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
