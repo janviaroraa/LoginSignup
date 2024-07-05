@@ -6,9 +6,10 @@
 - [ ] INFRA
 
 ## Description
-- Login using Facebook SDK
-- Login using Google Authentication
+- Facebook Integration
+- Google Integration
 - Signup-Login Validation
+- Photo picker from Gallery
 
 ## Technologies Used
 - UIKit
