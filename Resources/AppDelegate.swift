@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
 
         ApplicationDelegate.shared.application(application, didFinishLaunchingWithOptions: launchOptions)
-        FirebaseApp.configure()
+//        FirebaseApp.configure()
 
         return true
     }
